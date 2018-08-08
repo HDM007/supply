@@ -8,5 +8,112 @@
   </head>
   <body>
 
+  <!-- The logo and name in the header. Set this as a flex container, with inline-block, and justify content left. -->
+    <header>
+      <div class="flex-container">
+        <div class="logo">
+        <img src="resources\images\logo.png">
+        </div>
+        <span> SECRET AGENT SUPPLY INC. </span>
+      </div>
+    </header>
+
+<!--The entire body, from main banner to footer, intended to create a container to flex everything within. -->
+    <div class="flex-container">
+
+      <!--The Main Banner - a container with another container inside it. Put a background image to main banner. Set the background color of arrival to black. -->
+      <div class="flex-container">
+        <div class="main-banner">
+          <div class="arrival">
+            <h4> NEW ARRIVAL </h4>
+            <h1> SPORT BIKES AND MOTORCYCLES </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- THe Nav - a container with 6 paragraphs, all equally spaced out by space between. Remember to set background color to red, and display to inline-block. Remember to set a media query on the Mobile nav, and to remove bullets on the unordered list. -->
+      <nav>
+        <ul class="flex-container">
+          <p> Eyewear </p>
+          <p> Apparel </p>
+          <p> Gadgets </p>
+          <p> Vehicles </p>
+          <p> Classes </p>
+          <p> Contact </p>
+       </ul>
+
+      <ul id="Mobile">
+        <li> Menu </li>
+      </ul>
+    </nav>
+
+    <!--Products. This is a flex container, with products set as a container, with product set as a container, with product image and span contained. Three products in one products container in one larger container. -->
+      <div class="flex-container">
+        <div class="products">
+
+          <div class="product">
+            <div class="product-image">
+              <img src="resources\images\pen.png">
+            </div>
+            <span class="description">
+              Exploding Pen
+            </span>
+          </div>
+
+          <div class="product">
+            <div class="product-image">
+              <img src="resources\images\watch.png">
+            </div>
+            <span class="description">
+              Cellular Watch
+            </span>
+          </div>
+
+          <div class="product">
+            <div class="product-image">
+              <img src="resources\images\glasses.png">
+            </div>
+            <span class="description">
+              Thermal Glasses
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+    <!-- The Business Info section, with two seperate info bites. -->
+      <div class="flex-container">
+        <div class="Business Info">
+          <div class="info">
+            <span class="title">
+              Location
+            </span>
+            <span>
+              -47.346436, 84.32354
+            </span>
+          </div>
+        </div>
+
+        <div class="Business Info">
+          <div class="info">
+            <span class="title">
+              Hours
+            </span>
+            <span>
+              0800 - 1800
+            </span>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer Content. -->
+    <footer>
+      <div class="flex container">
+        Copyright Secret Agent Supply Inc.
+      </div>
+    </footer>
+
+
+    </div>
   </body>
 </html>
